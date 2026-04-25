@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF", "WPF\WPF.csproj", "{9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grid", "Grid\Grid.csproj", "{38240682-B370-4C4C-8DF5-6DAF1844BE56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding", "Binding\Binding.csproj", "{F1F2CBC2-0185-4616-9FAB-7B02023F8DE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{38240682-B370-4C4C-8DF5-6DAF1844BE56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38240682-B370-4C4C-8DF5-6DAF1844BE56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38240682-B370-4C4C-8DF5-6DAF1844BE56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F2CBC2-0185-4616-9FAB-7B02023F8DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F2CBC2-0185-4616-9FAB-7B02023F8DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F2CBC2-0185-4616-9FAB-7B02023F8DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F2CBC2-0185-4616-9FAB-7B02023F8DE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
