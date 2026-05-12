@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.37111.16
+# Visual Studio 15
+VisualStudioVersion = 15.0.36001.139
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF", "WPF\WPF.csproj", "{F7C399E1-68F9-4E69-93F8-AB7B6241A044}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grid", "Grid\Grid.csproj", "{FE7E3F63-7EA9-41F2-817A-A22363F9CE1A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding", "Binding\Binding.csproj", "{FE2F3F42-29DA-4F5B-8CD2-D4A663BC8501}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBox", "ListBox\ListBox.csproj", "{A0C27147-A1CB-4391-A613-9CF935F2C64D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuBar", "MenuBar\MenuBar.csproj", "{3347433D-DEE5-45BE-A03B-ABE9F9D690F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomTextboxControl", "CustomTextboxControl\CustomTextboxControl.csproj", "{3309732C-B581-4A19-8826-1E0B9C4424E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,11 +33,23 @@ Global
 		{FE2F3F42-29DA-4F5B-8CD2-D4A663BC8501}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE2F3F42-29DA-4F5B-8CD2-D4A663BC8501}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE2F3F42-29DA-4F5B-8CD2-D4A663BC8501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0C27147-A1CB-4391-A613-9CF935F2C64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C27147-A1CB-4391-A613-9CF935F2C64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C27147-A1CB-4391-A613-9CF935F2C64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C27147-A1CB-4391-A613-9CF935F2C64D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3347433D-DEE5-45BE-A03B-ABE9F9D690F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3347433D-DEE5-45BE-A03B-ABE9F9D690F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3347433D-DEE5-45BE-A03B-ABE9F9D690F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3347433D-DEE5-45BE-A03B-ABE9F9D690F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3309732C-B581-4A19-8826-1E0B9C4424E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3309732C-B581-4A19-8826-1E0B9C4424E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3309732C-B581-4A19-8826-1E0B9C4424E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3309732C-B581-4A19-8826-1E0B9C4424E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F122231C-0D94-4E79-B93F-55CA8E1C8EFF}
+		SolutionGuid = {8CE2FA7E-07F0-4254-ACF2-8BDD5FEBB2FA}
 	EndGlobalSection
 EndGlobal
