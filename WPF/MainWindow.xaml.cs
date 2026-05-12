@@ -15,22 +15,21 @@ using System.Windows.Shapes;
 
 namespace WPF
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : Window
-    {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
+	/// <summary>
+	/// Interaction logic for MainWindow.xaml
+	/// </summary>
+	public partial class MainWindow : Window
+	{
+		public MainWindow()
+		{
+			InitializeComponent();
+		}
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            
-            (sender as Button).Content=
-            (sender as Button).Content=="Stop" ? "Start" : "Stop";
-            //btnStart.Content = btnStart.Content == "Stop" ? "Start" : "Stop";
-        }
-    }
+		private void Button_Click(object sender, RoutedEventArgs e)
+		{
+			(sender as Button).Content =
+			(sender as Button).Content == "Stop" ? "Start" : "Stop";
+			//btnStart.Content = btnStart.Content == "Stop" ? "Start" : "Stop";
+		}
+	}
 }

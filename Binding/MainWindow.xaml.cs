@@ -12,42 +12,43 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Runtime.CompilerServices;
+
 using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace Binding
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : Window, INotifyPropertyChanged
-    {
-        string boundText;
-        public string BoundText
-        {
-            get => boundText;
-            set
-            {
-                boundText = value;
-                OnPropertyChanged();
-            }
-        }
-        public MainWindow()
-        {
-            DataContext = this;
-            InitializeComponent();
-            txtInput.Focus();
-        }
+	/// <summary>
+	/// Interaction logic for MainWindow.xaml
+	/// </summary>
+	public partial class MainWindow : Window, INotifyPropertyChanged
+	{
+		string boundText;
+		public string BoundText
+		{
+			get => boundText;
+			set
+			{
+				boundText = value;
+				OnPropertyChanged();
+				//OnPropertyChanged(nameof(BoundText));
+			}
+		}
+		public MainWindow()
+		{
+			DataContext = this;
+			InitializeComponent();
+			txtInput.Focus();
+		}
+		public event PropertyChangedEventHandler PropertyChanged;
+		void OnPropertyChanged([CallerMemberName] string propertyName = null)
+		{
+			PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+		}
 
-        public event PropertyChangedEventHandler PropertyChanged;
-        void OnPropertyChanged()
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("BoundText"));
-        }
-
-        private void btnDefault_Click(object sender, RoutedEventArgs e)
-        {
-            BoundText = "Default";
-        }
-    }
+		private void BtnDefault_Click(object sender, RoutedEventArgs e)
+		{
+			BoundText = "Default";
+		}
+	}
 }
